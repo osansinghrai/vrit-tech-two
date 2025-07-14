@@ -21,11 +21,13 @@
 
 body {
   background: var(--background);
+  background: radial-gradient(circle, #EAF6F3 10%, white 100%);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 @keyframes soft-bounce {
+
   0%,
   100% {
     transform: translateY(0px);
@@ -38,4 +40,20 @@ body {
 
 .animate-soft-bounce {
   animation: soft-bounce 2s ease-in-out infinite;
+}
+
+@keyframes soft-opposite-bounce {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+.animate-soft-opposite-bounce {
+  animation: soft-opposite-bounce 2s ease-in-out infinite;
 }
