@@ -17,12 +17,12 @@ const MainPage = () => {
         </h2>
         <div className="absolute -mt-30">
           <div>
-            <div className="flex gap-20 ml-45">
+            <div className="flex gap-15 ml-45">
               <img src="image.png" alt="image" />
               <img
-                src="emoji1.png"
+                src="emoji1.gif"
                 alt="image"
-                className="transform -translate-y-10"
+                className="w-25 transform -translate-y-10 animate-soft-bounce"
               />
               <img src="image5.png" alt="image" />
             </div>
@@ -31,23 +31,31 @@ const MainPage = () => {
               <img src="image4.png" alt="image" />
             </div>
             <div className="flex gap-20 mt-10">
-              <img src="emoji2.png" alt="image" />
+              <img
+                src="emoji2.gif"
+                alt="image"
+                className="w-25 animate-soft-bounce"
+              />
               <img
                 src="image2.png"
                 alt="image"
-                className="transform translate-y-10"
+                className="transform translate-y-15"
               />
               <img
-                src="emoji3.png"
+                src="emoji3.gif"
                 alt="image"
-                className="transform translate-y-20"
+                className="w-25 transform translate-y-30"
               />
               <img
                 src="image3.png "
                 alt="image"
-                className="transform translate-y-10"
+                className="transform translate-y-15"
               />
-              <img src="emoji4.png" alt="image" />
+              <img
+                src="emoji4.gif"
+                alt="image"
+                className=" w-25 animate-soft-bounce"
+              />
             </div>
           </div>
         </div>
