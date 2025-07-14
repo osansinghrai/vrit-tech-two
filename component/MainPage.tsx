@@ -4,7 +4,7 @@ const MainPage = () => {
   return (
     <div className="relative">
       <div className="relative flex flex-col items-center mt-[20rem] min-h-screen text-black gap-4 tracking-wider ">
-        <h2 className="text-2xl">Hear How They Level Up Their Game!</h2>
+        <h2 className="text-2xl mt-4">Hear How They Level Up Their Game!</h2>
         <h1 className="text-6xl font-black tracking-tighter">
           Skill <span className="text-[#1DA077]">Masters</span> Unite!🤝
         </h1>
@@ -17,7 +17,7 @@ const MainPage = () => {
         </h2>
         <div className="absolute -mt-30">
           <div>
-            <div className="flex gap-10 ml-55">
+            <div className="flex gap-20 ml-45">
               <img src="image.png" alt="image" />
               <img
                 src="emoji1.png"
