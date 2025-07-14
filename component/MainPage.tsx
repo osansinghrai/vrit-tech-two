@@ -2,7 +2,7 @@ import React from "react";
 
 const MainPage = () => {
   return (
-    <div className="relative group">
+    <div className="group">
       <div className="flex flex-col items-center mt-[20rem] text-black gap-4 tracking-wider ">
         <div className="flex flex-col items-center gap-4 tracking-wider">
           <h2 className="text-2xl mt-4">Hear How They Level Up Their Game!</h2>
