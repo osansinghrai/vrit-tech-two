@@ -17,20 +17,20 @@ const MainPage = () => {
         </h2>
         <div className="absolute -mt-30">
           <div>
-            <div className="flex gap-15 ml-45">
+            <div className="flex gap-10 ml-45">
               <img src="image.png" alt="image" />
               <img
                 src="emoji1.gif"
                 alt="image"
-                className="w-25 transform -translate-y-10 animate-soft-bounce"
+                className="w-25 transform -translate-y-15 animate-soft-bounce"
               />
               <img src="image5.png" alt="image" />
             </div>
-            <div className="flex mt-10 gap-[40rem]">
+            <div className="flex ml-2 mt-10 gap-[35rem]">
               <img src="image1.png" alt="image" />
               <img src="image4.png" alt="image" />
             </div>
-            <div className="flex gap-20 mt-10">
+            <div className="flex gap-10 ml-20 mt-4">
               <img
                 src="emoji2.gif"
                 alt="image"
