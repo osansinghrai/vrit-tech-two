@@ -34,7 +34,7 @@ body {
   }
 
   50% {
-    transform: translateY(-8px);
+    transform: translateY(-10px);
   }
 }
 
@@ -50,10 +50,29 @@ body {
   }
 
   50% {
-    transform: translateY(8px);
+    transform: translateY(10px);
   }
 }
 
 .animate-soft-opposite-bounce {
   animation: soft-opposite-bounce 2s ease-in-out infinite;
 }
+
+@keyframes soft-zoom-in {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(2.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-soft-zoom-in {
+  animation: soft-zoom-in 2s ease-in-out infinite;
+}
+
